@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите пятизначное число и  я скажу палиндром оно или нет");
+﻿Console.WriteLine("Введите пятизначное число и я скажу палиндром оно или нет");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int firstDigit = 0;
