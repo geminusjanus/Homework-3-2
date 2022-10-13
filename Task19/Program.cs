@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите пятизначное число");
+﻿Console.WriteLine("Введите пятизначное число и  я скажу палиндром оно или нет");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int firstDigit = 0;
@@ -13,9 +13,9 @@ if (num >= 10000 && num <= 99999)
     forthDigit = num % 100 / 10;
     if (firstDigit == lastDigit && secondDigit == forthDigit)
     {
-        Console.WriteLine("Число палиндром");
+        Console.WriteLine("Да");
     }
-    else Console.WriteLine("Число не палиндром");
+    else Console.WriteLine("Нет");
 }
 else Console.WriteLine("Число не пятизначное");
 // Console.WriteLine($"{firstDigit}, {secondDigit}, {forthDigit}, {lastDigit}");
